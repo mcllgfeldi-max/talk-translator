@@ -1,24 +1,15 @@
 <!doctype html>
 <html lang="id">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#111827"><link rel="manifest" href="manifest.json">
-<title>Talk Translator</title><link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827"><meta name="description" content="Penerjemah suara langsung English dan Indonesia.">
+<link rel="manifest" href="manifest.json"><title>Talk Translator</title><link rel="stylesheet" href="style.css">
 </head>
-<body>
-<main class="app">
-<header><div class="brand">🌐 Talk Translator</div></header>
-<section class="languages">
-  <div id="fromLang">🇬🇧 English</div><div class="arrow">⇄</div><div id="toLang">🇮🇩 Indonesia</div>
-</section>
-<button id="swapBtn" class="swap">🔄 Tukar Bahasa</button><button id="installBtn" class="install" hidden>📲 Install Aplikasi</button>
-<section class="live">
-  <div id="orb" class="orb">🎙️</div>
-  <h1 id="title">Siap menerjemahkan</h1>
-  <p id="hint">Tekan tombol lalu bicara secara normal.</p>
-  <button id="startBtn">🎙️ Mulai Percakapan</button>
-</section>
+<body><main class="app">
+<header><div class="brand">🌐 Talk Translator</div><div class="live-dot">LIVE</div></header>
+<section class="languages"><div id="fromLang">🇬🇧 English</div><div class="arrow">⇄</div><div id="toLang">🇮🇩 Indonesia</div></section>
+<div class="actions"><button id="swapBtn" class="swap">🔄 Tukar Bahasa</button><button id="installBtn" class="install" hidden>📲 Install Aplikasi</button></div>
+<section class="live"><div id="orb" class="orb">🎙️</div><h1 id="title">Siap menerjemahkan</h1><p id="hint">Tekan tombol lalu bicara secara normal.</p><button id="startBtn">🎙️ Mulai Percakapan</button></section>
 <div id="status" class="status">Siap</div>
-</main>
-<script src="app.js"></script>
-</body></html>
+<footer>Suara masuk → AI menerjemahkan → suara keluar</footer>
+</main><script src="app.js"></script></body></html>
