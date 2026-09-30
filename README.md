@@ -36,3 +36,5 @@ OPENAI_API_KEY=your_key_here
 ## Important
 
 Do not put `OPENAI_API_KEY` inside `public/app.js`, HTML, or any file served to the browser.
+
+Cloudflare deployment test
